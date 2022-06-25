@@ -42,16 +42,21 @@
     <div class="display-wrapper">
         <h2 style="margin-top:51px;">My images</h2>
         <div class="append-images-here">
-            
+
             <p>No image found. Your extracted images should be here.</p>
             <!-- THE IMAGES SHOULD BE DISPLAYED INSIDE HERE -->
             <form class="inputFileForm">
-                <input name="file" type="file" id="inpFile"/>
+                
+                <input name="file" type="file" id="inpFile" accept=".zip"/>
                 <input type="submit" class="submitButton"/>
+                
+                <a href="./assets/images.zip" download ='zeyads-images.zip'>
+                    <button type="button" class="download-defualt-btn">Download Zeyad's File</button>
+                </a>
             </form>
             
-            <div class="images-container">
-            </div>
+            <!-- <div class="images-container">
+            </div> -->
             
         </div>
     </div>
