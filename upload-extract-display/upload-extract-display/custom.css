@@ -37,6 +37,7 @@ b.yellow {
   background-color: yellow;
   border-radius: 10px;
   border-color: black;
+  position: relative;
 }
 .inputFileForm input[type="file"] {
   background-color: black;
@@ -62,7 +63,10 @@ b.yellow {
     background-color: black;
     color: yellow;
     border-radius: 5px;
-    text-align: right;
+    position: relative;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 20px
 }
 
 .download-defualt-btn:hover {
