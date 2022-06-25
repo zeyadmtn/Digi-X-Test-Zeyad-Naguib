@@ -32,3 +32,8 @@ b.yellow {
 .display-wrapper {
     padding: 10px;
 }
+
+.imgfromZip {
+    height: 500px;
+    width: 500px;
+}

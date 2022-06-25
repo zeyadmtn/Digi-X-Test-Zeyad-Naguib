@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="style.css?v=1.0" />
   <link rel="stylesheet" href="custom.css?v=1.0" />
+  <script type="text/javascript" src="../../node_modules/jszip/dist/jszip.min.js"></script>
 
 </head>
 
@@ -42,11 +43,17 @@
     <div class="display-wrapper">
         <h2 style="margin-top:51px;">My images</h2>
         <div class="append-images-here">
+            
             <p>No image found. Your extracted images should be here.</p>
             <!-- THE IMAGES SHOULD BE DISPLAYED INSIDE HERE -->
+            <form class="inputFileForm">
+                <input name="file" type="file" id="inpFile"/>
+                <input type="submit"/>
+            </form>
+            <img src="" alt="" class="imgfromZip"/>
         </div>
     </div>
     <!-- DO NO REMOVE CODE UNTIL HERE -->
-
+    <script src="app.js"></script>
 </body>
 </html>
