@@ -1,12 +1,10 @@
 const inpFile = document.querySelector("#inpFile");
 const imagesDiv = document.querySelector('.images-container');
+const inpFileForm = document.querySelector('.inputFileForm');
 
-(function test() {
-
-
-
-  inpFile.addEventListener("change", (e) => {
-
+(function handleUploadedZip() {
+    inpFileForm.addEventListener("submit", (e) => {
+        e.preventDefault();
 
         var jsZip = new JSZip();
  

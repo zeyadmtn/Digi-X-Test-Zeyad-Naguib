@@ -33,6 +33,33 @@ b.yellow {
   padding: 10px;
 }
 
+.inputFileForm {
+    background-color: yellow;
+    border-radius: 10px;
+    border-color: black;
+}
+.inputFileForm input[type=file] {
+    background-color: black;
+    color: white;
+    height: 33px;
+    padding-top: 8px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.submitButton {
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+}
+.submitButton:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+
+    
+}
+
 .images-container {
   display: flex;
   flex-direction: row;
@@ -45,8 +72,22 @@ b.yellow {
 .imgElement {
   height: auto;
   width: 450px;
-
+  border-radius: 10px;
   margin: 20px;
   box-shadow: yellow 0px 5px 20px;
+  -webkit-transition: .3s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+
 
 }
+
+.imgElement:hover {
+    z-index: 1;
+    transform: scale(1.5);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-transform: scale(1.5);
+  }
+
+  
